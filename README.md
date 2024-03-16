@@ -6,7 +6,7 @@ The API gateway would be created on another repository.
 
 ## Lambda backend Function
 
-Lets start by going to the aws console and search for Cloud9, then open Cloud9
+* Lets start by going to the aws console and search for Cloud9, then open Cloud9
 <img src="https://github.com/OscarSLopez09/Lambda-Serverless-App-Part2/blob/main/Images/backendlambda00.PNG" height="90%" width="800%" alt="Disk Sanitization Steps"/>
 
 * Move into the directory - cd BackendSentiment
