@@ -47,7 +47,7 @@ The API gateway would be created on another repository.
 <img src="https://github.com/OscarSLopez09/Lambda-Serverless-App-Part2/blob/main/Images/backendlambda10.PNG" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 * Go to Amazon Dynambo DB to check if is storing the news with sentiment
-* On the search box type Dynamo DB
+* On the AWS search box type Dynamo DB
 * Select the table news
 * Click the refresh buttom to see the results
 <img src="https://github.com/OscarSLopez09/Lambda-Serverless-App-Part2/blob/main/Images/backendlambda11.PNG" height="80%" width="80%" alt="Disk Sanitization Steps"/>
