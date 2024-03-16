@@ -26,21 +26,33 @@ The API gateway would be created on another repository.
 * Uploda the zip file to AWS Lambda by running the following AWS command
 <img src="https://github.com/OscarSLopez09/Lambda-Serverless-App-Part2/blob/main/Images/backendlambda05.PNG" height="120%" width="120%" alt="Disk Sanitization Steps"/>
 
-Go to AWS Lambda to check if the function has been created
-On Lambda console refresh the screen and the function should appeared
-Proceed to create a test event to check the Lambda
-Click on the Test tab
-Select the Create new event
-Event name - Event1
-Template optional select -hello-world
-On Event JSON - {"sentiment":"NEUTRAL"}
-Save the test event
-Click on test
-Go to Amazon Dynambo DB to check if is storing the news with sentiment
-on the search box type Dynamo DB
-Select the table news
-Click the refresh buttom to see the results
-Result successful
+* Go to AWS Lambda to check if the function has been created
+<img src="https://github.com/OscarSLopez09/Lambda-Serverless-App-Part2/blob/main/Images/backendlambda06.PNG" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+* On Lambda console refresh the screen and the function should appeared
+<img src="https://github.com/OscarSLopez09/Lambda-Serverless-App-Part2/blob/main/Images/backendlambda06.PNG" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/OscarSLopez09/Lambda-Serverless-App-Part2/blob/main/Images/backendlambda07.PNG" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+* Proceed to create a test event to check the Lambda
+* Click on the Test tab
+* Select the Create new event
+* Event name - Event1
+* Template optional select -hello-world
+* On Event JSON - {"sentiment":"NEUTRAL"}
+* Save the test event
+<img src="https://github.com/OscarSLopez09/Lambda-Serverless-App-Part2/blob/main/Images/backendlambda08.PNG" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+* Click on test
+<img src="https://github.com/OscarSLopez09/Lambda-Serverless-App-Part2/blob/main/Images/backendlambda09.PNG" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/OscarSLopez09/Lambda-Serverless-App-Part2/blob/main/Images/backendlambda10.PNG" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+* Go to Amazon Dynambo DB to check if is storing the news with sentiment
+* On the search box type Dynamo DB
+* Select the table news
+* Click the refresh buttom to see the results
+<img src="https://github.com/OscarSLopez09/Lambda-Serverless-App-Part2/blob/main/Images/backendlambda11.PNG" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  
+## Result successful
 
 
 
