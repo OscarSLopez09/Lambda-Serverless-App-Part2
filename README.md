@@ -4,6 +4,8 @@ In this section I'm going to create the second part of the project which is fetc
 I'm going to create the backend lambda function to fetch the sentiment to the end user.
 The API gateway would be created on another repository.
 
+## Lambda backend Function
+
 Lets start by going to the aws console and search for Cloud9, the open Cloud9
 On cloud9 create a directory - mkdir BackendSentiment
 Move into the directory - cd BackendSentiment
