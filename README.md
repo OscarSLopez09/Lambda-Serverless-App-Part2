@@ -15,9 +15,16 @@ The API gateway would be created on another repository.
 <img src="https://github.com/OscarSLopez09/Lambda-Serverless-App-Part2/blob/main/Images/backendlambda01.PNG" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 * Copy and Paste the python code and save it
+<img src="https://github.com/OscarSLopez09/Lambda-Serverless-App-Part2/blob/main/Images/backendlambda02.PNG" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
 * Check the file creation with - ls -lthr
+<img src="https://github.com/OscarSLopez09/Lambda-Serverless-App-Part2/blob/main/Images/backendlambda03.PNG" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
 * Proceed to zip up the files - zip -r lambda.zip *
-* Uploda the zip file to AWS Lambda by running the AWS command
+<img src="https://github.com/OscarSLopez09/Lambda-Serverless-App-Part2/blob/main/Images/backendlambda04.PNG" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+* Uploda the zip file to AWS Lambda by running the following AWS command
+<img src="https://github.com/OscarSLopez09/Lambda-Serverless-App-Part2/blob/main/Images/backendlambda05.PNG" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 Go to AWS Lambda to check if the function has been created
 On Lambda console refresh the screen and the function should appeared
