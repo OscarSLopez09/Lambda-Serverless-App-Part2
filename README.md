@@ -65,7 +65,7 @@ aws lambda create-function --function-name NewsReaderBacked --runtime python3.11
 * Select the Create new event
 * Event name - Event1
 * Template optional select - hello-world
-* On Event JSON - {"sentiment":"NEUTRAL"}
+* On Event JSON type the below
 ```JSON
 {
   "sentiment":"NEUTRAL"
