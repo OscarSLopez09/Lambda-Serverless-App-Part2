@@ -30,8 +30,6 @@ aws lambda create-function --function-name NewsReaderBacked --runtime python3.11
 <img src="https://github.com/OscarSLopez09/Lambda-Serverless-App-Part2/blob/main/Images/backendlambda05.PNG" height="120%" width="120%" alt="Disk Sanitization Steps"/>
 
 * Go to AWS Lambda to check if the function has been created
-<img src="https://github.com/OscarSLopez09/Lambda-Serverless-App-Part2/blob/main/Images/backendlambda06.PNG" height="100%" width="100%" alt="Disk Sanitization Steps"/>
-
 * On Lambda console refresh the screen and the function should appeared
 <img src="https://github.com/OscarSLopez09/Lambda-Serverless-App-Part2/blob/main/Images/backendlambda06.PNG" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 
