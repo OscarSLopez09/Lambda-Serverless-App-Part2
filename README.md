@@ -66,6 +66,11 @@ aws lambda create-function --function-name NewsReaderBacked --runtime python3.11
 * Event name - Event1
 * Template optional select - hello-world
 * On Event JSON - {"sentiment":"NEUTRAL"}
+```JSON
+{
+  "sentiment":"NEUTRAL"
+}
+```
 * Save the test event
 <img src="https://github.com/OscarSLopez09/Lambda-Serverless-App-Part2/blob/main/Images/backendlambda08.PNG" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 
