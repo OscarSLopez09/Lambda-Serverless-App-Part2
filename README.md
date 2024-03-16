@@ -40,17 +40,17 @@ The API gateway would be created on another repository.
 * Template optional select -hello-world
 * On Event JSON - {"sentiment":"NEUTRAL"}
 * Save the test event
-<img src="https://github.com/OscarSLopez09/Lambda-Serverless-App-Part2/blob/main/Images/backendlambda08.PNG" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/OscarSLopez09/Lambda-Serverless-App-Part2/blob/main/Images/backendlambda08.PNG" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 
 * Click on test
-<img src="https://github.com/OscarSLopez09/Lambda-Serverless-App-Part2/blob/main/Images/backendlambda09.PNG" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://github.com/OscarSLopez09/Lambda-Serverless-App-Part2/blob/main/Images/backendlambda10.PNG" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/OscarSLopez09/Lambda-Serverless-App-Part2/blob/main/Images/backendlambda09.PNG" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/OscarSLopez09/Lambda-Serverless-App-Part2/blob/main/Images/backendlambda10.PNG" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 
 * Go to Amazon Dynambo DB to check if is storing the news with sentiment
 * On the AWS search box type Dynamo DB
 * Select the table news
 * Click the refresh buttom to see the results
-<img src="https://github.com/OscarSLopez09/Lambda-Serverless-App-Part2/blob/main/Images/backendlambda11.PNG" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/OscarSLopez09/Lambda-Serverless-App-Part2/blob/main/Images/backendlambda11.PNG" height="100%" width="100%" alt="Disk Sanitization Steps"/>
   
 ## Result successful
 
