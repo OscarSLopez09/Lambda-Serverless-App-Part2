@@ -31,6 +31,8 @@ The API gateway would be created on another repository.
 
 * On Lambda console refresh the screen and the function should appeared
 <img src="https://github.com/OscarSLopez09/Lambda-Serverless-App-Part2/blob/main/Images/backendlambda06.PNG" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+
+* Click on the function - NewsReaderBacked
 <img src="https://github.com/OscarSLopez09/Lambda-Serverless-App-Part2/blob/main/Images/backendlambda07.PNG" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 
 * Proceed to create a test event to check the Lambda
