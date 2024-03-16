@@ -14,7 +14,29 @@ The API gateway would be created on another repository.
 * Create a python file with - nano lambda_function.py
 <img src="https://github.com/OscarSLopez09/Lambda-Serverless-App-Part2/blob/main/Images/backendlambda01.PNG" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-* Copy and Paste the python code and save it
+
+* Once the editor is open I copy and paste the following Python code
+```python
+
+import boto3
+from boto3.dynamodb.conditions import Key
+
+def lambda_handler(event, context):
+    # TODO implement
+    dynamodb = boto3.resource('dynamodb') 
+    table = dynamodb.Table('news')
+    inputSentiment=event['sentiment']
+    try:
+        # Querying the table using Primary key
+        response = table.query(
+            KeyConditionExpression=Key('sentiment').eq(inputSentiment),
+            Limit=10, #limits returned news to 10
+            ScanIndexForward=False) #descending order of timestamp, most recent news first
+        return response
+    except:
+        raise
+```
+
 <img src="https://github.com/OscarSLopez09/Lambda-Serverless-App-Part2/blob/main/Images/backendlambda02.PNG" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 * Check the file creation with - ls -lthr
