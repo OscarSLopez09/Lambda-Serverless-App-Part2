@@ -4,7 +4,7 @@ In this section I'm going to create the second part of the project which is fetc
 I'm going to create the backend lambda function to fetch the sentiment to the end user.
 The API gateway would be created on another repository.
 
-This is the 2nd part of the project, links to the other parts of the project:
+This is part 3 of the project, links to the other parts of the project:
 
 - [Part 1 Lambda Serverless App ](https://github.com/OscarSLopez09/Lambda-Serverless-App)
 - [Part 3 Creating the backend lambda](https://github.com/OscarSLopez09/Lambda-Serverless-App-Part2)
