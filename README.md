@@ -100,7 +100,7 @@ aws lambda create-function --function-name NewsReaderBacked --runtime python3.11
 
 Links to the other sections onf the project:
 
-- [Part 2 Creating the backend lambda](https://github.com/OscarSLopez09/Lambda-Serverless-App-Part2)
+- [Part 1 Lambda Serverless App ](https://github.com/OscarSLopez09/Lambda-Serverless-App)
 - [Part 3 Creating API Gateway ](https://github.com/OscarSLopez09/Serverless-App-Part2-API-GW)
 - [Part 4 Creating CloudWatch event](https://github.com/OscarSLopez09/Serverless-Cloudwatch-Rule)
 - [Part 5 Implementing security with API keys ](https://github.com/OscarSLopez09/Lambda-Serverless-App-Security)
