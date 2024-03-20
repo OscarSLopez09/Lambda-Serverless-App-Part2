@@ -100,7 +100,7 @@ aws lambda create-function --function-name NewsReaderBacked --runtime python3.11
 
 Links to the other sections onf the project:
 
-- [Part 3 Creating API Gateway ](https://github.com/OscarSLopez09/Serverless-App-Part2-API-GW)
+- [Part 4 Creating API Gateway ](https://github.com/OscarSLopez09/Serverless-App-Part2-API-GW)
 
 
 
